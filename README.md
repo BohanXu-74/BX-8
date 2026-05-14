@@ -7,7 +7,7 @@ Watch Demo Video above!!
 
 A homebrew 8-bit CPU designed from scratch that was inspired by classic CPUs like the 6502 and Z80.
 
-BTW this repo is being updated so it might change the next time you see this.
+My files are designed using Digital (look at bottom for more info) so they are in dig files that you have to download Digital to simulate and run.
 
 PLZ READ THE PART DESCRIPTIONS!!!! They help explain a lot of confusion
 
@@ -54,4 +54,11 @@ See [`docs/instr.txt`](docs/instr.txt)
 
 BIG thanks to Hneemann for designing the software logic simulator Digital to make all this possible
 - [Digital](https://github.com/hneemann/Digital) by Hneemann
+If you want to run and test my CPU:
+- Download all my src files
+- make sure all the files, even the ones in the folder are put into one folder
+- open the CPU_4.0.dig file
+- open the ROM on the left side by right clicking it and clicking edit
+- go on the left top side and press file, load
+- load the instr.txt
 
