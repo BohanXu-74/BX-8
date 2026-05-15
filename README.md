@@ -308,14 +308,31 @@ Each module in `src/` has a `.dig` schematic file, a `.png` screenshot, and a de
 from-scratch-8bit-cpu/
 ├── src/
 │   ├── CPU_4.0.dig            (main CPU schematic)
-│   ├── ALU_V2.dig             (ALU module)
-│   ├── Stack_FOR_MIT.dig      (hardware stack)
+│   ├── alu/                   (ALU module)
+|   │   ├── ALU_V2.dig
+|   │   ├── alu.png
+|   │   ├── aluin.png
+|   │   ├── part-description.md
+│   ├── instr-decoder/         (hardware stack)
+|   │   ├── instr-data.hex
+|   │   ├── instr-dec.png
+|   │   ├── part-description.md
+│   ├── pc/                    (hardware stack)
+|   │   ├── part-description.md
+|   │   ├── pc.png 
+│   ├── reg/                   (hardware stack)
+|   │   ├── part-description.md
+|   │   ├── reg.png
+│   ├── stack/         (hardware stack)
+|   │   ├── CPU_4.0.dig
 │   ├── instr-data.hex         (microcode ROM data)
 │   └── [each module has a .dig + .png + description file]
 ├── docs/
 │   └── instr.txt              (full instruction set + microcode reference)
 ├── images/
 │   ├── cpu8.png
+│   ├── pc2.png
+│   ├── reg.png
 │   └── thunbnail.jpg
 ├── LICENSE
 └── README.md
